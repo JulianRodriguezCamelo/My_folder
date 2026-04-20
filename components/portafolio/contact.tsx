@@ -79,9 +79,9 @@ export default function Contact() {
               <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-violet-600/25 to-fuchsia-600/10 border border-violet-500/20 flex items-center justify-center shrink-0 group-hover:shadow-[0_0_20px_rgba(139,92,246,0.35)] transition-all duration-300">
                 <Mail className="w-5 h-5 text-violet-400" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-xs text-white/30 uppercase tracking-widest mb-0.5">Email</p>
-                <span className="text-white/80 text-sm">juliancamilorodriguezcamelo21@gmail.com</span>
+                <span className="text-white/80 text-sm break-all">juliancamilorodriguezcamelo21@gmail.com</span>
               </div>
             </div>
 
